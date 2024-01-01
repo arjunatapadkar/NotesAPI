@@ -19,7 +19,7 @@ app.listen(PORT, () =>{
     console.log("App started")
 });
 
-const DBconnect = require("./config/Database");
+const DBconnect = require("./config/database");
 DBconnect();
 
 // default route of app
