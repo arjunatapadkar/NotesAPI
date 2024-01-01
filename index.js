@@ -23,9 +23,9 @@ const DBconnect = require("./config/Database");
 DBconnect();
 
 // default route of app
-app.get("/", (req, res)=>{
-    res.send("<h1>Homepage</h1>")
-});
+// app.get("/", (req, res)=>{
+//     res.send("<h1>Homepage</h1>")
+// });
 
 
 
