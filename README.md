@@ -80,7 +80,7 @@ Before you begin, ensure you have the following:
 
 ## Deployed Link
 
-The API is deployed and accessible at [Your Deployed API URL](https://notes-api-one-xi.vercel.app/).
+The API is deployed and accessible at [Live API](https://notes-api-one-xi.vercel.app/).
 
 
 
