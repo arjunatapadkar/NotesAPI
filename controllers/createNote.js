@@ -8,6 +8,10 @@ exports.create = async(req, res) => {
     try{
         // extract title and content from req body
         const {title, content} = req.body;
+        const titleMaxLength = 100; 
+        const contentMaxLength = 1000; 
+        const titleMinLength = 5;
+        const contentMinLength = 10;
 
         // validation
         if (!title || !content ) {
@@ -15,6 +19,14 @@ exports.create = async(req, res) => {
             return res.status(400).json({
               status: 400,
               message: "Please fill all fields",
+            });
+        }
+
+        if (title.length > titleMaxLength || title.length < titleMinLength || content.length > contentMaxLength || content.length < contentMinLength ) {
+            console.log("Please ensure the length of title and content is correct");
+            return res.status(400).json({
+              status: 400,
+              message: "Please ensure the length of title and content is correct",
             });
         }
 
