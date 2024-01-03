@@ -9,9 +9,8 @@ This is a RESTful API for a simple note-taking application developed using Node.
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Testing](#testing)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 The Simple Note-Taking API allows users to perform CRUD operations on text notes. Each note has a title, content, and timestamps for creation and last modification.
